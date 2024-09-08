@@ -1,0 +1,238 @@
+/*Text - align بتحرك الجمله من مكنها الى اي مكان يعجبك*/
+/*direction بتخلى الانجلش عربى*/
+/* Text - Decoration بتحط خط فوق الكلمه او تحتيها او عليها*/
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/* .youssef{
+    position: fixed;
+    border: 1% dashed;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 4, 255, 0.4);
+    
+} */
+
+/*a:hover{اول ما تحط الفارة عليه
+    color: red;
+}
+a:visited {اول ما تدخل الموقع
+    color: rgb(51, 255, 0);
+}
+a:hover{اول ما تحط الفارة عليه
+    color: red;
+}*/
+/*.one::first-lineاول صطر
+    font-weight: bold;
+    color: blue;
+}
+::selection{التظلله
+    background-color:rgb(0, 0, 0);
+    color: rgb(238, 255, 0);
+}*/
+:root{
+    --amincolor:green;
+    --aminpadding:20px;
+}
+
+ul{
+    list-style: none;
+}
+ul li{
+    position: relative;
+    padding-left: 10px;
+    margin-bottom:10px;
+}
+ul li:before{
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    left: -20px;
+    top :50%;
+    margin-top: -10px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent var(--amincolor)  transparent  transparent;
+}
+.ca{
+    padding: 20px;
+    background-color: #0033ffb7;
+    margin: 20px auto;
+    width: 300px;
+
+}
+.ca:hover{box-shadow: 0px 0px 5px 4px #000000, inset 2px 2px 20px 18px rgb(43 0 255);}
+.egg{
+    border: 3px solid black;
+    width: 20px 20px;
+    transition-duration: 1s;
+    transition-delay:1s;
+    transition-property: all;
+    transition-timing-function:ease-in;
+}
+.eggs{
+    background-color:aquamarine;
+}
+.egg:hover{
+    margin-left: 200px;
+    margin-top: 40px;
+    width: 500px;
+}
+.egg:hover{  
+
+    padding: 20px;
+    background-color: #ddd;
+    margin: 20px auto;
+    width: 400px;
+    box-shadow:-18px 0px 0px 17px #383841;
+}
+.title3{
+    text-align: center;
+    padding: 3px;
+    background-color: #fbfbfb;
+    font-size: 20px;
+    size: 20px;
+    margin-top: 90px;
+    border: 2px solid var(--color-blue);
+    font-style:italic;
+}
+.healthy{
+    background-color: var(--amincolor);
+    color: white;
+    padding: 20px;
+}
+.h2{
+    background-color: #eee;
+    color: var(--amincolor);
+    padding: 20px;
+}
+.All{
+    color: var(--amincolor);
+    border: 2px solid var(--amincolor);
+    padding: 20px;
+}
+.home{
+    background-color:green;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+
+.flex{
+    background-color: #eee;
+    width: 600px;
+    padding: 20px;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.flex div{
+    justify-content: space-between;
+    background-color:var(--amincolor);
+    color: white;
+    width: calc(98% / 5);
+    padding: 20px;
+}
+.float{
+    justify-content: space-between;
+    background-color: #eee;
+    width: 600px;
+    padding: 20px;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    direction: rtl;
+    /* flex-direction: column; يرص كال ا */
+    /* display: flex; يجعله مترص كال صطر ____________ */
+    /* direction:rtl; لغه عربيه */
+    /* flex-direction: row-reverse; لغه عربيه */
+    /* flex-wrap: wrap-reverse; */
+}
+.float div{
+    background-color:var(--amincolor);
+    color: white;
+    width: 25%;
+    padding: 20px;
+    width: calc(98% / 5);
+}
+
+.float div:hover{
+    height: 30px;
+}
+.flex div:hover{
+    height: 30px;
+}
+.a-egg{
+
+    background-color: green;
+    width: 55px;
+    padding: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.p-egg{
+    background-color:var(--amincolor);
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center ;
+    margin-left: 70px;
+    border: solid 10px #eee;
+    margin-top: -100px;
+}
+.p-egg:hover{
+    background-color: #eee;
+    color: green;
+    transition-duration: 1s;
+}
+.a-egg:hover{
+    background-color: #eee;
+    color: green;
+    transition-duration: 1s;
+}
+.ap-egg{
+    border: solid 20px #eee;
+}
+.eggg{
+    width: 400px;
+}
+.eggg{
+    border: 3px solid black;
+    width: 20px 20px;
+    transition-duration: 1s;
+    transition-delay:1s;
+    transition-property: all;
+    transition-timing-function:ease-in;
+}
+.eggg:hover{
+    margin-left: 200px;
+    margin-top: 40px;
+    width: 500px;
+}
+.eggg:hover{  
+    padding: 20px;
+    background-color: #ddd;
+    margin: 20px auto;
+    width: 400px;
+    box-shadow:-18px 0px 0px 17px #383841;
+    transition-duration: 1s;
+    transition-delay: 1s;
+}
+.theend{
+    background-color: #000000;
+    color:white;
+    padding: 20px;
+    display: flex;
+    justify-content: center ;
+}
+.theend:hover{
+    color: #000000;
+    background-color: #eee;
+    transition-duration: 1s;
+    transition-delay: 1s;
+}
