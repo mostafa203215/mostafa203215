@@ -1,0 +1,31 @@
+@media (max-width: 767px) {
+    .navbar-inverse .navbar-nav > li > a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .subscribe .form-control {
+        margin: 20px auto;
+        width: 400px;
+    }
+    .navbar-fixed-top .navbar-collapse,
+    .navbar-fixed-bottom .navbar-collapse {
+        max-height: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .carousel-caption {
+        bottom: 50px;
+        right: 20%;
+        left: 20%;
+        padding-bottom: 0px;
+    }
+}
+
+@media (min-width:992px) and (max-width: 1199px){
+    
+}
+
+@media (min-width:1200px) {
+
+}
