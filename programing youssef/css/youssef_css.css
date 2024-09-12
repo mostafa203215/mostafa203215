@@ -243,3 +243,9 @@ ul li:before{
     transition-duration: 1s;
     transition-delay: 1s;
 }
+p{
+    caret-color: red;
+} 
+div{
+    caret-color: red;
+}
