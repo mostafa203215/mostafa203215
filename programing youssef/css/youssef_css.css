@@ -72,6 +72,7 @@ ul li:before{
     transition-delay:1s;
     transition-property: all;
     transition-timing-function:ease-in;
+    filter: grayscale(100%);
 }
 .eggs{
     background-color:aquamarine;
@@ -80,6 +81,7 @@ ul li:before{
     margin-left: 200px;
     margin-top: 40px;
     width: 500px;
+    filter: grayscale(0%);
 }
 .egg:hover{  
 
