@@ -201,7 +201,7 @@ ul li:before{
     border: solid 20px #eee;
 }
 .Youssefpl{
-    background-image: linear-gradient(TO right,red,green);
+    background-image: linear-gradient(-10DEG,red,green);
     width: 800px;
     height: 200px;
 }
