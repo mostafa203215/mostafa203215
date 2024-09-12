@@ -200,6 +200,11 @@ ul li:before{
 .ap-egg{
     border: solid 20px #eee;
 }
+.Youssefpl{
+    background-image: linear-gradient(TO right,red,green);
+    width: 800px;
+    height: 200px;
+}
 .eggg{
     width: 400px;
 }
